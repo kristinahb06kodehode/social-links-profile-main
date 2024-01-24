@@ -61,7 +61,6 @@ img {
   line-height: 4em;
 }
 
-a,
 ul,
 li {
   color: white;
@@ -77,4 +76,24 @@ li {
   border-radius: 10px;
   font-weight: 600;
   font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.list-item:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 8%);
+}
+
+.list-item a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 1em;
+}
+
+.list-item a:active {
+  color: hsl(0, 0%, 8%);
 }
