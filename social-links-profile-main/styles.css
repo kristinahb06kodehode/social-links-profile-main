@@ -56,17 +56,31 @@ body {
   flex-direction: column;
   margin: 5em;
   padding: 3em;
+  width: 50vw;
+  border-radius: 14px;
+}
+
+img {
+  border-radius: 50%;
+  height: 12em;
+  width: 12em;
 }
 .about-section {
   color: hsl(0, 0%, 100%);
+  margin-top: 3em;
 }
 
 .location {
   color: hsl(75, 94%, 57%);
 }
 
-.link-container {
+.bio {
+  color: white;
   padding: 3em;
+}
+
+.link-container {
+  padding: 1em;
 }
 
 .socials {
@@ -79,4 +93,14 @@ li {
   color: white;
   text-decoration: none;
   list-style: none;
+  text-align: center;
+}
+
+.list-item {
+  background-color: hsl(0, 0%, 20%);
+  margin: 2rem;
+  width: 35vw;
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 14px;
 }
