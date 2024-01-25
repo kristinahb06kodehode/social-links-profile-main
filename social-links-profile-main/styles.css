@@ -97,3 +97,8 @@ li {
 .list-item a:active {
   color: hsl(0, 0%, 8%);
 }
+
+.attribution,
+a {
+  color: white;
+}
